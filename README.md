@@ -8,4 +8,8 @@ Savings and Checking accounts share the following properties: <br />
 * *deposit()* <br />
 * *withdraw()* <br />
 * *transfer()* <br />
-* *showInfo()* <br />
+* *showInfo()*: This will reveal relevant account information as well as information specific to Checking and Savings account. <br />
+
+Both accounts will use an interface that determines the base interest rate. <br />
+* *Savings accounts will use .25 points less than the base interest rate*
+* *Checking accounts will use 15% of the base rate*
