@@ -7,7 +7,7 @@ public class BankAccountApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String file = "/Users/adhirajpathak/Downloads/NewBankAccounts.csv";
+		String file = "../BankApp/csv/NewBankAccounts.csv";
 		
 //		Checking chkacc1 = new Checking("Tom Hanks","32123556",1500);
 //		Savings savacc1 = new Savings("Rich Lowe","55463311",2500);
@@ -49,8 +49,8 @@ public class BankAccountApp {
 			acc.showInfo();
 		}
 		
-		accounts.get((int) Math.random() * accounts.size()).deposit(100000);
-		accounts.get((int) Math.random() * accounts.size()).withdraw(2000);
+		accounts.get((int) Math.random() * accounts.size()).deposit(1000);
+		accounts.get((int) Math.random() * accounts.size()).withdraw(500);
 	}
 
 }
